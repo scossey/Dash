@@ -26,6 +26,7 @@ scatter_figure = make_scatter_plot(concat)
 # Initialize the app - incorporate css
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = Dash(external_stylesheets=external_stylesheets)
+server = app.server
 
 # App layout
 app.layout = html.Div(
