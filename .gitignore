@@ -81,7 +81,7 @@ docs/_build/
 # macOS Specific
 # -----------------------------------------------------------------------------
 
-.DS_Store           # Stores custom attributes of folders
+.DS_Store
 .localized          # Hidden file for folder localization
 .Spotlight-V100     # Spotlight metadata
 .Trashes            # Trash folder
